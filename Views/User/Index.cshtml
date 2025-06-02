@@ -1,5 +1,11 @@
 @model IEnumerable<MyMvcApp.Models.User>
 
+@* filepath: Views/User/Index.cshtml *@
+<form asp-action="Index" method="get">
+    <input type="text" name="searchString" value="@ViewBag.SearchString" placeholder="Search users..." />
+    <button type="submit">Search</button>
+</form>
+
 @{
     ViewBag.Title = "Index";
 }
