@@ -4,11 +4,11 @@
   "parameters": {
     "appServicePlanName": {
       "type": "string",
-      "defaultValue": "myMvcAppServicePlan"
+      "defaultValue": "myMvcAppFelixServicePlan"
     },
     "webAppName": {
       "type": "string",
-      "defaultValue": "myMvcApp"
+      "defaultValue": "myMvcAppFelix"
     },
     "location": {
       "type": "string",
